@@ -20,7 +20,7 @@ Console.WriteLine($"Mean: {mean}");
 int median = (numbers[5] + numbers[6]) / 2;
 Console.WriteLine($"Median: {median}");
 Console.Write("Modes: ");
-for (int t = 1; k < 10; t++)
+for (int t = 1; t < 10; t++)
 {
     if (numbers[y] == numbers[y + 1])
     {
@@ -28,4 +28,5 @@ for (int t = 1; k < 10; t++)
     }
     y++;
 }
+
 
